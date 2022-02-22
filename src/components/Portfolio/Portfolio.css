@@ -1,0 +1,424 @@
+.portfolio-container {
+  margin-top: 10em;
+}
+
+.header-text {
+  padding-left: 4em;
+  padding-right: 4em;
+  color: hsl(0, 0%, 100%);
+}
+
+.product-header {
+  font-size: 24px;
+}
+
+.m-top {
+  margin-top: 2em;
+}
+
+.m-bottom {
+  margin-bottom: 4em;
+}
+
+.portfolio-introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divider {
+  margin-top: 0.5em;
+  border-top: 2px solid white;
+}
+
+.img-wrapper {
+  margin-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.port-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 1);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+.video-player #video-player {
+  position: relative;
+}
+
+.video-player #video-player iframe {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.isVisible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.close {
+  z-index: 1000;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  left: 40px;
+}
+
+/* .martinLogan {
+  border: 2px solid white;
+  border-right: 0px;
+  border-top: transparent;
+} */
+
+.company-header {
+  font-size: 72px;
+  margin-top: -1em;
+}
+
+.l {
+  font-size: 80px;
+}
+
+.second {
+  margin-top: -0.95em;
+  margin-left: 1.925em;
+  /* margin-left: 1.526em; */
+  /* margin-left: 1.75em; */
+}
+
+.avm {
+  width: 110%;
+  height: auto;
+}
+
+.martin-text {
+  /* background-color: aquamarine; */
+}
+
+.header-border {
+  /* background-color: aquamarine; */
+}
+
+.top {
+  font-size: 60px;
+  /* background-color: yellow; */
+}
+
+.bottom {
+  font-size: 60px;
+  margin-left: 1.935em;
+  /* background-color: red; */
+}
+
+
+.ml-btn {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none; */
+}
+
+
+/* ----- company  ---------- */
+
+.company-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  /* width: 100%;
+  height: 20%;
+  background-color: aliceblue; */
+  /* position: relative; */
+  
+}
+
+.company-preview {
+  /* float: right; */
+  width: 100%;
+  height: auto;
+  margin-bottom: -.5em;
+}
+
+.company-name-wrapper {
+ position: absolute;
+ padding-left: 2em;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ /* background-color: aqua; */
+ /* margin-top: -1.1em; */
+ /* width: fit-content;
+ height: fit-content; */
+}
+
+.header {
+  min-width: 100%;
+  font-size: 84px;
+  filter: drop-shadow(0.05em 0.25rem 0.10rem hsl(261, 100%, 75%));
+}
+
+.description {
+  font-size: 16px;
+  width: 40%;
+  color: white;
+  filter: drop-shadow(0.2em 0.25rem 0.10rem hsl(261, 100%, 75%));
+}
+
+.btn-wrapper {
+  margin-top: .5em;
+}
+
+.play-btn {
+  /* display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding: 5px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer; */
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+/* .hey {
+  margin-bottom: 1em;
+} */
+
+.left-line {
+  /* height: 30em;
+  width: 100%;
+  border: 2px solid white;
+  position: absolute;
+  border-right: none;
+  border-top: none;
+  margin-top: -3.75em;
+  margin-left: 20px; */
+  /*  */
+}
+
+@media screen and (max-width: 1050px) {
+  .company-container {
+    display: flex;
+    justify-content: space-between;
+    /* height: 500px; */
+  }
+
+  .top {
+    font-size: 60px;
+    /* margin-top: -1.1em; */
+  }
+
+  .bottom {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .company-container {
+    display: flex;
+    justify-content: space-between;
+    /* height: 400px; */
+  }
+
+  .top {
+    font-size: 48px;
+    /* margin-top: -1.1em; */
+  }
+
+  .bottom {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .play-btn {
+    /* display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 5px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer; */
+    font-size: 30px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .company-container {
+    display: flex;
+    justify-content: space-between;
+    /* height: 350px; */
+  }
+
+  .company-name-wrapper {
+    width: 50%;
+    padding-left: 2em;
+   }
+
+   .btn-wrapper {
+    /* margin-top: 0.5em; */
+  }
+
+  .top {
+    font-size: 36px;
+    /* margin-top: -1.1em; */
+  }
+
+  .bottom {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 11px;
+    width: 70%;
+  }
+
+  .play-btn {
+    /* display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 5px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer; */
+    font-size: 25px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .company-container {
+    display: flex;
+    justify-content: space-between;
+    /* height: 250px; */
+  }
+
+  .company-name-wrapper {
+    width: 50%;
+    padding-left: 2em;
+   }
+
+   .btn-wrapper {
+    margin-top: 0.5em;
+  }
+
+  .top {
+    font-size: 28px;
+    /* margin-top: -1.1em; */
+  }
+
+  .bottom {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .play-btn {
+    /* display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 5px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer; */
+    font-size: 20px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .company-container {
+    display: flex;
+    justify-content: space-between;
+    /* height: 225px; */
+  }
+
+  .company-name-wrapper {
+    width: 50%;
+    padding-left: 2em;
+   }
+
+   .btn-wrapper {
+    margin-top: 0.5em;
+  }
+
+  .top {
+    font-size: 22px;
+    /* margin-top: -1.1em; */
+  }
+
+  .bottom {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .company-container {
+    display: flex;
+    justify-content: space-between;
+    /* height: 225px; */
+  }
+
+  .company-name-wrapper {
+    width: 50%;
+    padding-left: 2em;
+   }
+
+   .btn-wrapper {
+    margin-top: 0.5em;
+  }
+
+  .top {
+    font-size: 18px;
+    /* margin-top: -1.1em; */
+  }
+
+  .bottom {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 9px;
+  }
+}

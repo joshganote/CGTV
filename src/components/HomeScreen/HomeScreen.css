@@ -1,0 +1,128 @@
+.home-video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.line-1 {
+  width: 475px;
+  font-size: 64px;
+  line-height: 60px;
+  color: transparent;
+  text-shadow: 0 0 3px rgba(243, 144, 79);
+  filter: drop-shadow(6px 5px 6px #4444dd);
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+  .line-1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+
+.focus {
+  color: rgba(243, 144, 79);
+  font-size: 64px;
+  line-height: 60px;
+}
+
+.line-2 {
+  color: rgba(243, 144, 79);
+  width: 450px;
+  margin-top: 0.5em;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .focus {
+    font-size: 48px;
+    line-height: 30px;
+  }
+
+  .line-2 {
+    width: 350px;
+  }
+}
+
+.topSection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 1024px) {
+  img {
+    object-fit: contain;
+  }
+}
+
+.container1 {
+  margin-top: 100px;
+  width: 700px;
+  max-width: 1200px;
+}
+
+.container2 {
+  margin-right: auto;
+  margin-left: auto;
+  flex: 1;
+}
+
+.content {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-text {
+  margin: 0 0 20px;
+  color: white;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 400;
+  width: 600px;
+  margin-left: 1em;
+}
+
+.content-text2 {
+  margin: 0 0 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  width: 500px;
+  margin-left: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.more-padding {
+  padding-left: 50px;
+}
+
+p {
+  color: white;
+}
+
+.MuiBox-root {
+  /* padding: 1em 8em !important; */
+}
+
+@media screen and (max-width: 768px) {
+  .MuiBox-root {
+    padding: 1em 6em !important;
+  }
+}
+
+
+.test3 {
+  position: relative;
+}
