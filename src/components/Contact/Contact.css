@@ -1,0 +1,13 @@
+.backgroundImg {
+  background-image: url("../../assets/ps5controller.jpg");
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contact-title {
+  color: white;
+  position: relative;
+}
